@@ -1,0 +1,35 @@
+{
+  "name": "input-color-picker",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/common": "^18.1.2",
+    "@angular/core": "^18.1.2"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "bugs": {
+    "email": "hongdaesik88@gmail.com"
+  },
+  "author": {
+    "name": "HONG DAESIK",
+    "email": "hongdaesik88@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "color",
+    "input",
+    "picker",
+    "angular",
+    "typescript",
+    "color picker",
+    "color-picker",
+    "color selection",
+    "color-selection",
+    "input-color-picker",
+    "input color picker"
+  ],
+  "homepage": "https://bettep.org",
+  "description": "Color picker library produced in Angular language."
+}
