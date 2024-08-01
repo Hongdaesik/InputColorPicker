@@ -11,7 +11,7 @@ You can check out the demo <a href="https://bettep.org/input-color-picker">here<
 ## Installation
 
 ```bash
-npm install input-color-picker --save
+npm install --save input-color-picker
 ```
 
 <br><br>
