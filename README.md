@@ -18,34 +18,32 @@ npm install --save input-color-picker
 
 ## Usage
 
-Import into your @NgModule.
 ```typescript
-import { NgModule } from '@angular/core'
-import { FormsModule } from '@angular/forms'
-import { InputColorPickerModule } from 'input-color-picker'
+import {
+  FormsModule
+} from '@angular/forms'
+import {
+  CommonModule
+} from '@angular/common'
 
-@NgModule({
+import {
+  InputColorPickerModule or InputColorPickerComponent
+} from 'input-color-picker'
+
+@Component( {
 
   imports: [
 
     FormsModule,
-    InputColorPickerModule
+    CommonModule,
+
+    InputColorPickerModule or InputColorPickerComponent
   ],
-  declarations: []
-})
-export class MyModule {}
-```
-
-<br><br>
-
-Then, using your component.
-```typescript
-@Component( {
-
-  selector: 'app',
+  standalone: true,
+  selector: 'app-my-component',
   template: '<input-color-picker [(ngModel)]="color" [col]="40" [boxHeight]="48" [colorWidth]="20" [colorHeight]="20" [placeholder]="\'Color selection\'"></input-color-picker>'
 } )
-export class AppComponent {
+export class MyComponent {
 
   public color: string
 
@@ -72,6 +70,8 @@ export class AppComponent {
 
 `1.0.0` : Initial release.
 `1.0.2` : Remove package dependency.
+`1.0.3` : Modify package dependency version range.
+`1.0.4` : Standalone / SSR compatible.
 
 <br><br>
 

@@ -5,7 +5,7 @@ import {
 
 import {
   InputColorPickerComponent
-} from './input-color-picker.component'
+} from './input-color-picker'
 
 describe( 'InputColorPickerComponent', () => {
   let component: InputColorPickerComponent

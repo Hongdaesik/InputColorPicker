@@ -10,17 +10,16 @@ import {
 
 import {
   InputColorPickerComponent
-} from './input-color-picker.component'
+} from './input-color-picker'
 
 @NgModule( {
-  declarations: [
 
-    InputColorPickerComponent
-  ],
   imports: [
 
     FormsModule,
     CommonModule,
+
+    InputColorPickerComponent
   ],
   exports: [
 
